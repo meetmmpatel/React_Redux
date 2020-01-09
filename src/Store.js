@@ -16,6 +16,11 @@ const reducer = (state = initialState, action) => {
 			posts: state.posts.concat(action.payload)
 		});
 	}
+	if (action.type === "GET_POST") { 
+		return {
+			...state, posts: state.posts.concat(action.payload)
+		}
+	}
 
 	return state;
 };
