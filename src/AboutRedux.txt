@@ -1,0 +1,6 @@
+
+About Redux
+
+- Store(source  it's only one per app  AKA provider)
+- Reducers
+- Actions 
